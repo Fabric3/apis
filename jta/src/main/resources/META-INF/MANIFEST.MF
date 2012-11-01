@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Export-Package: javax.transaction;version="1.1.0";uses:="javax.transaction.xa",javax.transaction.xa;version="1.1.0"
+Bundle-Name: Java Transaction API
+Bundle-Vendor: fabric3.org
+Bundle-Version: 1.1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.fabric3.api.javax.transaction
+

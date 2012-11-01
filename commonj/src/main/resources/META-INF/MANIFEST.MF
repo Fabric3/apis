@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Export-Package: commonj.timers;version="1.1.0",commonj.work;version="1.1.0"
+Bundle-Vendor: fabric3.org
+Bundle-Classpath: .
+Bundle-Name: CommonJ Timer and Work Manager for Application Servers
+Bundle-SymbolicName: org.fabric3.api.commonj
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Export-Package: javax.annotation;version="1.0.0",javax.annotation.security;version="1.0.0"
+Bundle-Vendor: fabric3.org
+Bundle-Classpath: .
+Bundle-Version: 1.0.0
+Bundle-Name: Java Common Annotations API
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.fabric3.api.javax.annotation
+
