@@ -56,16 +56,20 @@ import java.lang.annotation.Target;
 @Retention(RUNTIME)
 public @interface Service {
     /**
-     * Array of interfaces that should be exposed as services.
-     *
-     * @return a list of interfaces that should be exposed as services
+     * An optional array of strings which are used as the service names for each of the interfaces
+     * declared in the {@link #value()} array. If this attribute is not specified, then the service
+     * name of an exposed service defaults to the name of its interface or class, without the
+     * package name.
+     * 
+     * @return an array of strings to be used as service names
      */
-    public abstract Class<?>[] names() default {};
+    public abstract String[] names() default {};
 
     /**
-     * Shortcut allowing a single interface to be exposed.
-     *
-     * @return a single service interfaces to be exposed
+     * An array of interface or class objects that are exposed as services. If the array is empty,
+     * no services are exposed.
+     * 
+     * @return an array of services to be exposed
      */
-    public abstract Class<?> value() default Void.class;
+    public abstract Class<?>[] value();
 }
