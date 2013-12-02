@@ -101,9 +101,10 @@
     </build>
 
     <scm>
-        <connection>scm:svn:http://svn.codehaus.org/fabric3/spec/trunk</connection>
-        <developerConnection>scm:svn:https://svn.codehaus.org/fabric3/spec/trunk</developerConnection>
-        <url>http://svn.fabric3.codehaus.org/browse/fabric3/spec/trunk</url>
+        <connection>scm:git:git@github.com:Fabric3/apis/sca</connection>
+        <developerConnection>scm:git:git@github.com:Fabric3/apis/sca</developerConnection>
+        <url>http://github.com/Fabric3/apis/sca</url>
+        <tag>HEAD</tag>
     </scm>
 
     <profiles>
