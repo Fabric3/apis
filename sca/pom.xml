@@ -101,9 +101,9 @@
     </build>
 
     <scm>
-        <connection>scm:git:git@github.com:Fabric3/apis/sca</connection>
-        <developerConnection>scm:git:git@github.com:Fabric3/apis/sca</developerConnection>
-        <url>http://github.com/Fabric3/apis/sca</url>
+        <connection>scm:git:git@github.com:Fabric3/apis.git</connection>
+        <developerConnection>scm:git:git@github.com:Fabric3/apis.git</developerConnection>
+        <url>http://github.com/Fabric3/apis</url>
         <tag>HEAD</tag>
     </scm>
 
